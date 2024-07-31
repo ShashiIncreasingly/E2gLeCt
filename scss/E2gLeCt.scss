@@ -1,0 +1,42 @@
+@import "_mixins";
+
+@import "_rating";
+
+@import "_product";
+
+@import "_pdp";
+
+@import "_modal";
+
+@import "_cart";
+
+@import "_extends";
+
+@import "_sidebar";
+
+@import "_recs";
+
+@import "_tickbox";
+
+.inc_overlay {
+  overflow: hidden !important;
+  min-height: 100vh;
+
+  body {
+    overflow: hidden !important;
+    min-height: 100vh;
+  }
+
+  // Client element 
+  #___ratingbadge_0,#__outer_rating{
+    z-index: 1 !important;
+  }
+  #tidio-chat-iframe,.rCjEAf,#___ratingbadge_0 iframe,.cookieconsent-optin-marketing,.buttonWave
+  ,.awesome-iframe .widget-position-right.bubbleWithLabel .widgetLabel{
+    display: none !important;
+  }
+}
+
+.inc_bundles {
+  overflow-x: hidden;
+}
